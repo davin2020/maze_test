@@ -1,0 +1,57 @@
+/* standard css template */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	background-color: lightyellow;
+	font-size: 62.5%;
+}
+
+.container {
+	width: 80%;
+	border: 2px red solid;
+}
+
+.splashScreen {
+	display: block;
+	background-color: lightsteelblue;
+	height: 200px;
+	/*width: 50%*/
+}
+
+.mainScreen {
+	display: none;
+	background-color: lightgreen;
+	/*height: 200px;*/
+	/*width: 50%*/
+}
+
+.mainScreen.showItem {
+	display: block;
+	height: 300px;
+}
+
+.mainScreen2 {
+	/*display: block;*/
+	background-color: mediumpurple;
+	/*height: 200px;*/
+	/*width: 50%*/
+}
+
+.goodPath {
+	border: 2px solid green;
+	position: relative;
+	width: 50%;
+	height: 20px;
+	top: 20px;
+	left: 50px;
+}
+
+.badlandsPath {
+	border: 2px solid darkorange;
+	height: 200px;
+}
